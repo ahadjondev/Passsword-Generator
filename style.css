@@ -1,0 +1,92 @@
+/* Apply box-sizing to all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Set background properties for body */
+body {
+    background-image: url("images/warld.jpg"); /* Corrected path to the background image */
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Style for heading */
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+/* Style for container */
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+/* Style for image */
+#image {
+    background-color: azure;
+    width: 30px;
+    height: 30px;
+}
+
+/* Style for display */
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+
+/* Style for heading span within container */
+.container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px; /* Corrected typo: Changed '7x' to '7px' */
+}
+
+/* Style for image within display */
+.display img {
+    width: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+
+/* Style for input within display */
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+
+/* Style for button image within container */
+.container button img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+/* Style for button within container */
+.container button {
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    cursor: pointer;
+}

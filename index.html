@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Generate a<br> <span> Random Password </span></h1> 
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <img src="images/copy.png" alt="" id="image" onclick="copyPassword()">
+        </div>
+        <button onclick="createPassword()"> <img src="/images/avatar.png" alt="">Create Password</button>
+    </div>
+
+    <footer>
+        <script src="script.js" charset="UTF-8"></script>
+    </footer>
+</body>
+</html>
